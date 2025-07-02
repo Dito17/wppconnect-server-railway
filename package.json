@@ -1,0 +1,11 @@
+{
+  "name": "wppconnect-server-railway",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@wppconnect-team/wppconnect-server": "^2.0.0"
+  }
+}
