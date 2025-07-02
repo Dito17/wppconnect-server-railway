@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  app:
+    build: .
+    ports:
+      - "21465:21465"
+    environment:
+      - SECRET_KEY=${SECRET_KEY}
+      - SESSION_NAME=zapfoto
+      - PORT=21465
